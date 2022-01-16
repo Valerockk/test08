@@ -1,0 +1,22 @@
+@media(min-width: 960px){
+    
+    .container{
+        width: 100%;
+        max-width: 940px;
+        margin: 0 auto;
+    }
+
+    .holidays-partners{
+        padding: 68px 0 70px 0;
+    }
+
+    .holidays-partners_list{
+        justify-content: space-between;
+        margin-bottom: 28px;
+    }
+
+    .holidays-partners_items{
+        margin-right: 0px;
+        margin-bottom: 0;
+    }
+}

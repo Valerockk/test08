@@ -1,0 +1,223 @@
+body{
+    font-family: 'Montserrat', Helvetica, sans-serif;
+}
+
+.container{
+    width: 100%;
+    max-width: 280px;
+    margin: 0 auto;
+}
+
+.h2{
+    margin: auto;
+    color: #333;
+    font-size: 22px;
+    font-weight: 700;
+    max-width: 259px;
+    margin-bottom: 14px;
+    text-align: center;
+}
+
+.header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding-top: 19px;
+}
+
+.container {
+    width: 100%;
+    max-width: 280px;
+    margin: 0 auto;
+}
+
+.header_inner{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.header_logo{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    opacity: 1;
+}
+
+.header_log-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 115px;
+}
+
+.header_log-link{
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 13px 20px 10px;
+    text-decoration: none;
+    border: 3px solid transparent;
+    border-radius: 21px;
+    transition: 0.35s;
+}
+
+.header_log-link:hover{
+    border-color: #fff;
+}
+
+.after_head{
+    position: relative;
+    min-height: 100vh;
+    padding: 229px 0 139px;
+    box-sizing: border-box;
+    background-image: url('../img/bg.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.after_head-title{
+    max-width: 276px;
+    margin: auto;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.2;
+    margin-bottom: 19px;
+}
+
+.after_head_sub-title{
+    max-width: 220px;
+    margin: auto;
+    color: #fff;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.2;
+    font-weight: 400;
+    margin-bottom: 18px;
+}
+
+.btn-wrap {
+    text-align: center;
+}
+
+.btn {
+    padding: 13px 25px;
+    color: #ff4e50;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 700;
+    border: 2px solid #ff4e50;
+    border-radius: 28px;
+    background-color: transparent;
+    transition: 0.35s;
+}
+
+.btn:hover {
+    background-color: #ff4e50;
+    color: #fff;
+}
+
+.holidays-partners{
+    padding: 68px 0 60px 0;
+}
+
+.holidays-partners_list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.holidays-partners_items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 220px;
+    margin-bottom: 28px;
+}
+
+.holidays-partners_avatar{
+    position: relative;
+    width: 122px;
+    height: 122px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+}
+
+.holidays-partners_avatar-tv{
+    background-image: url(../img/photo01.png);
+}
+
+.holidays-partners_avatar-tea{
+    background-image: url(../img/photo02.png);
+}
+
+.holidays-partners_avatar-chemic{
+    background-image: url(../img/photo03.png);
+}
+
+.holidays-partners_avatar-telegram{
+    background-image: url(../img/photo04.png);
+}
+
+.holidays-partners_avatar::after{
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    right: -4px;
+    display: block;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.holidays-partners_avatar-tv::after{
+    background-image: url(../img/tv.png);
+    background-color: #ff4e50;
+}
+
+
+.holidays-partners_avatar-tea::after{
+    background-image: url(../img/tea.png);
+    background-color: #1cd7ad;
+}
+
+.holidays-partners_avatar-chemic::after{
+    background-image: url(../img/chemic.png);
+    background-color: #ffa507;
+}
+
+.holidays-partners_avatar-telegram::after{
+    background-image: url(../img/telegram.png);
+    background-color: #4e73db;
+}
+
+.holidays-partners_name{
+    color: #333;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 16px;
+    font-weight: 700;
+}
+
+
+.holidays-partners_desc{
+    color: #666;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 400;
+}
